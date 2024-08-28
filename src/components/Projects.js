@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import IMS1 from "../assets/img/IMS-1.jpeg";
-import IMS2 from "../assets/img/splash.jpg";
-import IMS3 from "../assets/img/IMS-3.png";
+//import IMS2 from "../assets/img/splash.jpg";
+//import IMS3 from "../assets/img/IMS-3.png";
 import IMS4 from "../assets/img/IMS-website.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -99,7 +99,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="" />
     </section>
   )
 }

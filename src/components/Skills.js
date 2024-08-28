@@ -32,22 +32,22 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>I am good at programming, software Development, App Development.<br></br> artificial intelligence, Neural Networks, Data Structures, and algorithms.</p>
+              <p>I am good at programming, software development, app development, artificial intelligence, neural networks, data structures, and algorithms.</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item skill-item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Java skill level" />
                   <h5>Java</h5>
                 </div>
                 <div className="item skill-item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="App Development skill level" />
                   <h5>App Development</h5>
                 </div>
                 <div className="item skill-item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="Software Development skill level" />
                   <h5>Software Development</h5>
                 </div>
                 <div className="item skill-item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Artificial Intelligence skill level" />
                   <h5>Artificial Intelligence</h5>
                 </div>
               </Carousel>
